@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="css/contact.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+
+
+<script src="javascripts/contact-scripts/auto-scroller.js"></script>
+<script src="javascripts/contact-scripts/email-sender.js"></script>
+<script src="javascripts/contact-scripts/inputs-handler.js"></script>
+<script src="javascripts/contact-scripts/message-sent-handler.js"></script>
+<script src="javascripts/contact-scripts/next-button-handler.js"></script>
+<script src="javascripts/contact-scripts/phone-input-handler.js"></script>
+<script src="javascripts/contact-scripts/validator.js"></script>
+
+
+
+<tag autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+
+
+
+<div id="contact-container">
+
+    <div id="title-image-container">
+        <img src="img/paint-can-on-newspaper.jpg">
+    </div>
+    <div id="title-container">
+        <div id="title-div">
+            <div id="title-background">
+                <h1 id="title">Contact</h1>
+                <div id="info-container">
+                    <div id="phone-info-container" class="info-container">
+                        <h1>By phone at <span id="info-span">( 516 )  859 - 7840</span></h1>
+                    </div>
+
+                    <div id="email-info-container" class="info-container">
+                        <h1>Or by email at <span id="info-span">liprimepainting@gmail.com</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="message">
+        <div id="form-title">
+            <h1>Or send us a message and we'll contact you.</h1>
+        </div>
+        <div id="left-half">
+            <div id="name-input-container" class="input-container">
+                <div id="first-name-container">
+                    <input id="first-name-input" class="name-input" type="text" placeholder="first name..." autocomplete="off">
+                    <h3 class="error" id="first-name-error"></h3>
+                </div>
+                <div id="last-name-container">
+                    <input id="last-name-input" class="name-input" type="text" placeholder="last name..." autocomplete="off">
+                    <h3 class="error" id="last-name-error"></h3>
+                </div>
+            </div>
+            <div id="email-input-container" class="input-container">
+                <input id="email-input" placeholder="email..." type="email" autocomplete="off">
+                <h3 class="error" id="email-error"></h3>
+            </div>
+            <div id="phone-input-container" class="input-container">
+                <input id="phone-input" type="number" placeholder="phone..." autocomplete="off">
+                <h3 class="error" id="phone-error"></h3>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="text-input-container" class="input-container">
+                <textarea id="job-description-input" placeholder="description (optional)..." autocomplete="off"></textarea>
+            </div>
+        </div>
+        <div id="right-half">
+            <div id="next-button-container">
+                <button class="blue-button" type="button" id="next-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="message-sent-box">
+        <h4>Your message has been sent.</h4>
+    </div>
+</div>

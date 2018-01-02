@@ -1,0 +1,23 @@
+{
+  "name": "long-island-prime-painting",
+  "version": "1.0.0",
+  "description": "long island prime painting website",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "painting",
+    "professional",
+    "long",
+    "island",
+    "prime"
+  ],
+  "author": "wagner maciel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "nodemailer": "^4.4.1"
+  }
+}
