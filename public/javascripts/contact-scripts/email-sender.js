@@ -40,12 +40,13 @@ function generateQuery () {
         subject: formatSubject(first, last),
         body: formatBody(first, last, email, phone, msg)
     });
+    
     const query = `?data=${data}`;
 
     return query;
 }
 function formatSubject (first, last) {
-    return `New message from liprimepainting.com`;
+    return `New message from ${first} ${last} at liprimepainting.com`;
 }
 function formatBody (first, last, email, phone, msg) {
     let body = '';
