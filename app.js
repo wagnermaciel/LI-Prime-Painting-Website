@@ -15,9 +15,6 @@ app.listen(3000);
 // mailer
 const mailer = require('./app/controller/email-sender');
 
-// validator
-const validator = require('./app/controller/validator');
-
 // config
 const config = require('./config');
 
