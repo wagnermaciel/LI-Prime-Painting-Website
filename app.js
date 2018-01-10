@@ -10,7 +10,9 @@ const path = require('path');
 app.use(express.static(path.resolve(__dirname, 'public')));
 
 // port
-app.listen(3000);
+const port = 3000;
+app.listen(port);
+console.log('Listening at port', port);
 
 // mailer
 const mailer = require('./app/controller/email-sender');
