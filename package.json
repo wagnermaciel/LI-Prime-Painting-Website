@@ -1,23 +1,37 @@
 {
-  "name": "long-island-prime-painting",
+  "name": "li-prime-painting",
   "version": "1.0.0",
-  "description": "long island prime painting website",
+  "description": "Long Island Prime Painting Website",
   "main": "app.js",
-  "scripts": {
-    "test": "node app.js"
-  },
-  "keywords": [
-    "painting",
-    "professional",
-    "long",
-    "island",
-    "prime"
-  ],
-  "author": "wagner maciel",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
     "hbs": "^4.0.1",
-    "nodemailer": "^4.4.1"
+    "nodemailer": "4.4.2"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "nodemailer": "^4.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagnermaciel/LI-Prime-Painting-Website.git"
+  },
+  "keywords": [
+    "long-island",
+    "painting",
+    "business"
+  ],
+  "author": "wlm255",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wagnermaciel/LI-Prime-Painting-Website/issues"
+  },
+  "homepage": "https://github.com/wagnermaciel/LI-Prime-Painting-Website#readme",
+  "engines": {
+    "node": "8.4.0"
   }
 }
