@@ -9,11 +9,6 @@ app.set('view engine', 'hbs');
 const path = require('path');
 app.use(express.static(path.resolve(__dirname, 'public')));
 
-// port
-const port = 3000;
-app.listen(port);
-console.log('Listening at port', port);
-
 // mailer
 const mailer = require('./app/controller/email-sender');
 
@@ -51,4 +46,10 @@ app.post('/api/contact', function (req, res) {
 // gallery
 app.get('/gallery', function (req, res) {
     res.render('gallery');
+});
+
+// port
+const port = process.env.PORT || 3000;
+app.listen(port, function () {
+    console.log('Listening at port', port);
 });
