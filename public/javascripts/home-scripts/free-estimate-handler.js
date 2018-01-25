@@ -3,6 +3,6 @@ function freeEstimateHandler () {
     estBtn.addEventListener('click', goToContactPage);
 }
 function goToContactPage () {
-    window.location.href = 'http://localhost:3000/contact#free-estimate';
+    window.location.href = './contact#free-estimate';
 }
 document.addEventListener('DOMContentLoaded', freeEstimateHandler);
