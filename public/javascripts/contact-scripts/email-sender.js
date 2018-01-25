@@ -18,7 +18,7 @@ function onLoad (xml) {
 }
 // url for xml http request
 function generateURL() {
-    const base = 'http://localhost:3000/api/contact';
+    const base = './api/contact';
     const query = generateQuery();
     const url = base + query;
     return url;
