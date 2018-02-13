@@ -19,6 +19,5 @@ function substantiate (element) {
     let num = new Number(opacity);
     num += 0.01;
     element.style.opacity = num;
-    console.log(opacity);
 }
 document.addEventListener('DOMContentLoaded', fade);
