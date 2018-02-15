@@ -45,6 +45,8 @@ img {
 #title {
 	width: fit-content;
 	margin: 0 auto;
+	text-align: center;
+	font-size: 1em;
 	color: white;
 }
 #button-container {
