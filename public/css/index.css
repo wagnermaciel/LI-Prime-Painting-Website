@@ -9,19 +9,9 @@
 	position: absolute;
 	display: flex;
 }
-.outer-image {
-	height: 100%;
+.title-image {
 	width: 100%;
-}
-.inner-image-container {
-	font-size: 0;
-}
-.outer-image-container {
-	font-size: 0;
-}
-.inner-image {
-	width: 706px;
-	height: 300px;
+	height: 100%;
 }
 img {
 	object-fit: cover;
