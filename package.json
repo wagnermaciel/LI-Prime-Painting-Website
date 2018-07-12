@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "hbs": "^4.0.1",
+    "less": "^3.0.4",
     "nodemailer": "4.4.2"
   },
   "devDependencies": {

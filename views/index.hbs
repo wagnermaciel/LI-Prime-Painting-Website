@@ -1,72 +1,147 @@
-<link rel="stylesheet" href="css/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<!DOCTYPE html>
+	<head>
 
+		<link rel="stylesheet" href="stylesheets/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/header.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/about.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/gallery.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="javascripts/carousel.js"></script>
+		<script src="javascripts/fade-in.js"></script>
+		<title>Prime Painting</title>
 
+	</head>
 
-<script src="javascripts/home-scripts/free-estimate-handler.js"></script>
-<script src="javascripts/fade-in.js"></script>
+	<body>
 
+		<div id="header-container">
+			<div id="header">
+				<div id="header-title-container">
+					<h1 id="header-title">Long Island Prime Painting</h1>
+				</div>
+				<div id="header-list-container">
+					<ul id="header-list">
+						<li class="header-list-element"><a href="#about"    class="header-list-anchor" id="header-about-anchor">Who Are We</a></li>
+						<li class="header-list-element"><a href="#gallery"  class="header-list-anchor" id="header-gallery-anchor">Portfolio</a></li>
+						<li class="header-list-element"><a href="#services" class="header-list-anchor" id="header-services-anchor">Our Services</a></li>
+						<li class="header-list-element"><a href="#contact"  class="header-list-anchor" id="header-contact-anchor">Book Online</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
+		<div id="about-container">
+			<div id="about">
+				<div id="about-list-container">
+					<ul id="about-list">
+						<li class="about-list-element" id="about-list-left">
+							<img id="about-list-left-image" src="../img/about/empty-room.jpg">
+						</li>
+						<li class="about-list-element" id="about-list-right">
+							<div id="about-list-right-title-container">
+								<h2 id="about-list-right-title">Who Are We</h2>
+							</div>
+							<div id="about-list-right-text-container">
+								<p id="about-list-right-text">
+									We are a construction company with years of experience.
+									Our founder Mario July has been serving as a leading Construction
+									 Worker since 2003. As professional craftsmen, we are ready to tackle
+										anything from the most complex and large scale construction projects
+										 to the smallest of repair jobs. We are fueled by our commitment to excellence
+											and go the extra mile to make sure our clients are completely satisfied with our
+											 work. Call to schedule an initial consultation today.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-<div id="index-container">
+		<div id="gallery-container">
+			<div id="gallery">
+				<div id="gallery-title-container">
+					<h2 id="gallery-title">Portfolio</h2>
+				</div>
+				<div id="gallery-carousel-container">
+					<div id="gallery-carousel">
+						<ul id="gallery-carousel-list">
+							<li class="gallery-carousel-list-top-element"><button class="gallery-carousel-button" id="gallery-carousel-prev"><<</button></li>
+							<li class="gallery-carousel-list-top-element"><img id="gallery-carousel-image"></li>
+							<li class="gallery-carousel-list-top-element"><button class="gallery-carousel-button" id="gallery-carousel-next">>></button></li>
+						</ul>
+						<ul id="bottom-buttons">
+							<li class="gallery-carousel-list-element"><button class="gallery-carousel-list-bottom-button" id="gallery-carousel-bottom-button-01" class="bottom-button"></button></li>
+							<li class="gallery-carousel-list-element"><button class="gallery-carousel-list-bottom-button" id="gallery-carousel-bottom-button-02" class="bottom-button"></button></li>
+							<li class="gallery-carousel-list-element"><button class="gallery-carousel-list-bottom-button" id="gallery-carousel-bottom-button-03" class="bottom-button"></button></li>
+							<li class="gallery-carousel-list-element"><button class="gallery-carousel-list-bottom-button" id="gallery-carousel-bottom-button-04" class="bottom-button"></button></li>
+							<li class="gallery-carousel-list-element"><button class="gallery-carousel-list-bottom-button" id="gallery-carousel-bottom-button-05" class="bottom-button"></button></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div id="title-image-container" class="fade-in">
-        <img src="img/index-img-01.jpg" class="title-image">
-    </div>
+		<div class="services">
+			<ul>
+					<li class="card-01">
+						<img class="services-image image-03" src="../img/services/tools.jpg">
+						<div class="services-text">
+								<h3 class="services-sub-title font-7">Construction & Repair</h3>
+								<p class="services-p font-8">From putting up sheet rock to dry wall and plastering, we can build or help maintain an atmosphere of your choosing.</p>
+						</div>
+					</li>
+				<li class="card-02">
+					<img class="services-image image-02" src="../img/services/site.jpg">
+					<div class="services-text">
+							<h3 class="services-sub-title font-7">Wallpaper Painting & Staining</h3>
+							<p class="services-p font-8">We handle putting up wallpaper, interior and exterior painting, and staining with expert care and precision.</p>
+					</div>
+				</li>
+				<li class="card-03">
+					<img class="services-image image-04" src="../img/services/worker.jpg">
+					<div class="services-text">
+							<h3 class="services-sub-title font-7">Handyman Work</h3>
+							<p class="services-p font-8">Any additional hardware work you want to throw at us, we will tackle. Contact us below and get your free estimate today!</p>
+					</div>
+				</li>
+			</ul>
+		</div>
 
-    <div id="title-container">
-        <div id="title-background-div">
-            <div id="title">
-                <h1>Long Island Prime Painting</h1>
-            </div>
+		<div class="contact" id="page">
+			<div class="contact-container">
+				<ul>
+					<li class="contact-li-left">
+						<div class="contact-title-container">
+							<h2 class="contact-title font-9">Get in touch</h2>
+						</div>
+						<div class="contact-form-container">
+							<form method="GET" action="api/contact">
+								<input type="text" id="first-name" class="contact-input contact-first-name font-12" placeholder="First Name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+								<input type="text" id="last-name" class="contact-input contact-last-name font-12" placeholder="Last Name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+								<input type="text" id="phone-number" class="contact-input contact-phone-number font-12" placeholder="Phone Number" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+								<input type="email" id="email-address" class="contact-input contact-email-address font-12" placeholder="Email Address" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+								<textarea id="message" class="contact-input contact-message font-12" placeholder="Message"></textarea>
+								<button class="contact-submit font-12">Send</button>
+							</form>
+						</div>
+					</li>
+					<li class="contact-li-right">
+						<div class="contact-title-container">
+							<h2 class="contact-title font-9">Contact Us</h2>
+						</div>
+						<div class="contact-text-container">
+							<p class="contact-text font-14">Name: Mario July</p>
+							<p class="contact-text font-14">Email: liprimepainting@gmail.com</p>
+							<p class="contact-text font-14">Phone: (555) 555 - 5555</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-            <div id="button-container">
-                <button>Get Your Free Estimate!</button>
-            </div>
-        </div>
-    </div>
-    <div id="box-2" class="text-box">
-
-        <h1>About Us</h1>
-        <div id="text-container">
-            <p>We are a small local business that offers a variety
-             of interior and exterior painting services across
-              Long Island and New York City. Our founder Mario
-               July has been in this industry for over 10 years,
-                and knows the trade inside and out.</p>
-        </div>
-    </div>
-    <div id="services-box">
-        <div id="services-title-box">
-            <h1>Services</h1>
-        </div>
-        <div id="services-list">
-            <div id="service-box-1" class="service-box">
-                <img src="img/roller-icon.jpg">
-                <h4>Wallpaper Painting & Staining</h4>
-                <p>
-                    We handle putting up wallpaper, interior 
-                    and exterior painting, and staining with expert care and precision 
-                    to give your home a vibrant and lively feeling.</p>
-            </div>
-            <div class="service-box">
-                <img src="img/scraper-icon.jpg">
-                <h4>Construction & Repair</h4>
-                <p>
-                    From putting up sheet rock to dry wall and plastering, 
-                    we can build or help maintain an atmosphere of your choosing.
-                </p>
-            </div>
-            <div id="service-box-3" class="service-box">
-                <img src="img/hammer-icon.jpg">
-                <h4>Handyman Work</h4>
-                <p>
-                    Any additional hardware work you want to throw at us,
-                    we will tackle it.
-                </p>
-            </div>
-        </div>
-        <div id="contact-box">
-            <a href="./contact">Contact us </a><h4> for your free estimate today!</h4>
-        </div>
-    </div>
-</div>
+		<div class="footer-container">
+			<div class="footer-text-container">
+				<p class="footer-text font-15	">Copyright © 2018 Long Island Prime Painting. All rights reserved</p>
+			</div>
+		</div>
+	</body>
+</html>

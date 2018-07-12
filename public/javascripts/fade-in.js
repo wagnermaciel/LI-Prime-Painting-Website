@@ -1,23 +1,21 @@
-function fade () {
-    const elements = document.querySelectorAll('.fade-in');
-    for (let i = 0; i < elements.length; i++) {
-        const element = elements[i];
-        element.style.opacity = 0.0;
-        fadeIn(element);
-    }
+document.addEventListener('DOMContentLoaded', prettyLoad);
+
+function prettyLoad () {
 }
 
-function fadeIn (element) {
-    if (element.style.opacity !== "1") {
-        substantiate(element);
-        setTimeout(fadeIn.bind(this, element), 10);
-    }
+// Adjust margin bottom
+function slideUp (element, current, end) {
+  if (current > end) {
+    current -= 0.6;
+    element.style.marginTop = current + 'px';
+    setTimeout(slideUp.bind(this, element, current, end), 20);
+  }
 }
 
-function substantiate (element) {
-    const opacity = element.style.opacity;
-    let num = new Number(opacity);
-    num += 0.01;
-    element.style.opacity = num;
+function fadeIn (element, speed=0.003) {
+  const opacity = Number(element.style.opacity);
+  if (opacity < 1) {
+    element.style.opacity = opacity + speed;
+    setTimeout(fadeIn.bind(this, element, speed), 1);
+  }
 }
-document.addEventListener('DOMContentLoaded', fade);

@@ -1,0 +1,91 @@
+/* Portfolio */
+
+#gallery-container {
+  padding: 50px 0;
+  background-color: white;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  text-align: center;
+}
+#gallery {
+  width: 1200px;
+  margin: 0 auto;
+}
+#gallery-title-container {
+  width: 250px;
+  margin: 0 auto 50px auto;
+  border-bottom: 1px solid #003862;
+}
+#gallery-title {
+  font: 100 50px Avenir;
+  letter-spacing: -1px;
+  color: #003862;
+  text-align: center;
+}
+#gallery-carousel-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+#gallery-carousel {
+  margin: 0 -30px;
+}
+.gallery-carousel-list-top-element {
+  display: inline-block;
+  vertical-align: top;
+}
+#gallery-carousel-image {
+  height: 500px;
+  width: 800px;
+  border: 1px solid #003862;
+  object-fit: cover;
+}
+.gallery-carousel-button {
+  border: 1px solid #003862;
+  color: #003862;
+  font: 30px Avenir;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-top: 190px;
+}
+.gallery-carousel-button:hover {
+  border: 1px solid #bfbfbf;
+}
+.gallery-carousel-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+.gallery-carousel-button:active {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  outline: inherit;
+}
+#gallery-carousel-prev {
+  margin-right: 50px;
+}
+#gallery-carousel-next {
+  margin-left: 50px;
+}
+#bottom-buttons {
+  width: fit-content;
+  margin: 50px auto 0 auto;
+}
+.gallery-carousel-list-element {
+  display: inline-block;
+  margin-right: 20px;
+}
+.gallery-carousel-list-bottom-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: 1px solid #003862;
+}
+.gallery-carousel-list-element:last-child {
+  margin-right: 0;
+}
+.gallery-carousel-list-bottom-button:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+.gallery-carousel-list-bottom-button:focus {
+  outline: none;
+}

@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+body {
+  background-color: #f7f7f7;
+  overflow-x: scroll;
+}
+
+/* Fonts */
+
+.font-1 {
+  font-family: Avenir;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  color: #003862;
+}
+.font-2 {
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: 100;
+  color: #003862;
+}
+.font-3 {
+  font-family: Avenir;
+  font-size: 25px;
+  color: white;
+}
+.font-4 {
+  font-family: Avenir;
+  font-size: 20px;
+  color: white;
+}
+.font-5 {
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: 100;
+}
+.font-6 {
+  font-family: Avenir;
+  font-size: 18px;
+}
+.font-7 {
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: 100;
+  color: #003862;
+}
+.font-8 {
+  font-family: Avenir;
+  font-size: 18px;
+  color: #003862;
+}
+.font-9 {
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 100;
+  color: #003862;
+}
+.font-10 {
+  font-family: Avenir;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+.font-11 {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: white;
+  font-weight: 100;
+}
+.font-12 {
+  font-family: system-ui;
+  color: #003862;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.font-13 {
+  font-family: system-ui;
+  color: #003862;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.font-14 {
+  font-family: system-ui;
+  color: #003862;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.font-15 {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #0d5184;
+  font-weight: 100;
+}
+
+/* Services */
+
+.services {
+  width: fit-content;
+  margin: 100px auto;
+}
+.services .services-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 200px;
+  border: 1px solid #003862;
+  object-fit: cover;
+  margin: 50px auto 0 auto;
+}
+.services ul {
+  margin-top: 50px;
+}
+.services ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 70px;
+  background-color: #003862;
+  width: 400px;
+  height: 650px;
+  border: 1px solid gray;
+  background-color: #ffe6bd;
+}
+.services ul li:last-child {
+  margin-right: 0;
+}
+.services-sub-title {
+  width: fit-content;
+  margin: 40px auto 30px auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #003862;
+}
+.services-p {
+  width: 300px;
+  line-height: 50px;
+  margin-left: 50px;
+}
+
+.contact {
+  border: 1px solid #b5b5b5;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+.contact ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+.contact-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+.contact-title-container {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding: 10px 5px;
+}
+.contact-form-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+.contact-input {
+  width: 350px;
+  height: 30px;
+  padding: 0 10px;
+  display: block;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #003862;
+  outline: none;
+  margin-top: 20px;
+}
+.contact-input::placeholder {
+  color: #376283;
+}
+.contact-first-name, .contact-last-name {
+  display: inline-block;
+  width: 150px;
+}
+.contact-first-name {
+  margin-right: 30px;
+}
+.contact-message {
+  height: 100px;
+  line-height: 30px;
+  resize: none;
+  margin-top: 35px;
+  border: 1px solid #003862;
+}
+.contact-submit {
+  margin-top: 35px;
+  height: 50px;
+  width: 372px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #003862;
+  outline: none;
+}
+.contact-submit:hover, .contact-submit:focus {
+  background-color: #f7f7f7;
+}
+.contact-sub-title {
+  line-height: 100px;
+  padding-left: 50px;
+}
+.contact-text-container {
+  padding-top: 30px;
+}
+.contact-text {
+  line-height: 40px;
+}
+.contact-li-left {
+  padding: 75px 100px 75px 0;
+}
+.contact-li-right {
+  padding: 50px 0 50px 100px;
+  margin-top: 150px;
+  border-left: 1px solid #003862;
+}
+.contact-li-right .contact-title-container {
+  padding: 0;
+}
+
+.footer-container {
+  padding: 25px 0;
+  border-top: 1px solid #0d5184;
+  width: 800px;
+  margin: 55px auto 0 auto;
+}
+.footer-text-container {
+  width: fit-content;
+  margin: 0 auto;
+}
